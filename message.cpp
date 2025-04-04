@@ -13,6 +13,9 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
 
+
+//test change 
+
 //=======MUST UPDATE THIS EVERY TIME SURROUNDING CHANGES===========//
 //                     R                  G                  B     //  HOW TO UPDATE:
 const int Brass_R_S1 = 2910, Brass_G_S1 = 4463, Brass_B_S1 = 2877; //    
